@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<headerhtml lang="en">
+	<head>
+	<meta charset="UTF-8" />
+	<title>Mini Twitter</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="{% static 'base/reset.min.css' %}" />
+	<link rel="stylesheet" href="{% static 'base/style.css' %}" />
+	<link rel="stylesheet" href="{% static 'base/header.css' %}" />
+	</head>
+	<headerbody>
+	<!-- Header Start -->
+	<header class="headersite-header">
+		<div class="headerwrapper headersite-header__wrapper">
+            <a href="/" class="headerbrand">Mini Twitter</a>
+                <ul class="headernav__wrapper">
+                    <li class="headernav__item"><a href="/">Back to Home</a></li>
+                </ul>
+		</div>
+	</header>
+	<!-- Header End -->
+	</headerbody>
+</headerhtml>
+
+{% block content %}
+
+{% endblock content %}
